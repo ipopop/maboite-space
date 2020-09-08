@@ -2,7 +2,7 @@
 
 module.exports = {
     publicPath: process.env.NODE_ENV === 'production'
-      ? '/my-tailwind-project/'
+      ? '/maboite-space/'
       : '/'
   }
   
