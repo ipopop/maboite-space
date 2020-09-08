@@ -1,0 +1,10 @@
+# "watch": "postcss css/tailwind.css -o docs/build/tailwind.css --watch",
+
+# serve (local) :
+pnpm run serve;
+
+# git add + commit + push :
+gaa && gcam "<my commit msg here>" && git push -u origin master;
+
+# deploy on github pages :
+./deploy;

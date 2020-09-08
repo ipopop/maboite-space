@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+
+    .btn {
+        @apply inline-block px-5 py-3 text-sm font-bold tracking-wider uppercase rounded-lg;
+    }
+    
+    .btn:focus {
+        @apply shadow-outline outline-none;
+    }
+    
+    .btn-purple {
+        @apply text-white uppercase bg-purple-500;
+    }
+
+    .btn-purple:hover {
+        @apply bg-purple-400;
+    }
+    
+    .btn-purple:active {
+        @apply bg-purple-600;
+    }
+    
+    .btn-gray {
+        @apply text-gray-600 uppercase bg-gray-300;
+    }
+
+    .btn-gray:hover {
+        @apply bg-gray-200;
+    }
+    
+    .btn-gray:active {
+        @apply bg-gray-400;
+    }
+
+    /* @screen sm {
+        .btn {
+            @apply text-base;
+        }
+    } */
+
+@tailwind utilities;
