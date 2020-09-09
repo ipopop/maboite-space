@@ -6,12 +6,11 @@
                 <img class="object-full object-center w-full mt-6 rounded-lg shadow-xl sm:mt-8 sm:h-84 lg:hidden" src="img/web_design_2020_1280p.jpg" alt="Digital Web Design" />
                 <h2 class="mt-8 text-2xl font-bold leading-tight text-pkgray-300 sm:text-4xl lg:text-2xl xl:mt-20">
                     Votre Site Web sur mesure.
-                    <br class="sm:hidden xxl:inline" />
+                    <br class="sm:hidden lg:inline" />
                     <span class="text-purple-500">Profitez-en dès maintenant.</span>
                 </h2>
                 <p class="mt-2 md:mr-2 lg:mr-5 text-pkgray-400 sm:mt-4 sm:text-xl lg:text-xl xl:text-xl xl:mt-6 xl:mr-16">
                     Vous rêvez d'un site web moderne, design et accessible pour tous vos clients. Nous sommes le lien entre vos idées et leur mise en forme.
-
                 </p>
                 <div class="my-10 sm:mt-6 sm:text-base xl:mt-10 xl:text-sm">
                     <a href="mailto:contact@maboite.space" class="shadow-lg btn btn-purple ">Nous contacter</a>
