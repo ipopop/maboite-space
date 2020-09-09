@@ -27,7 +27,7 @@
         <div class="max-w-md px-8 py-8 mx-auto sm:max-w-2xl lg:max-w-6xl lg:px-12">
             <h2 id="portfolio" class="text-2xl text-gray-900">Portfolio</h2>
             <p class="text-xl text-gray-600">
-                Une selection de différents types de projets en cours de développement.
+                Différents types de projets en cours de développement.
             </p>
             <div class="flex flex-wrap">
                 <div class="mx-auto min-w-350 w-500 px-4 mt-10" v-for="contentCard in dataCard" v-bind:key="contentCard">
@@ -57,8 +57,8 @@ export default {
                     imageAlt: "yetistudio.fr",
                 },
                 {
-                    dataName: "design props",
-                    dataCnt1: "react props tests",
+                    dataName: "tests design",
+                    dataCnt1: "card & graphs",
                     dataCnt2: "https://my-props-test.vercel.app/",
                     imageUrl: "img/props.jpg",
                     imageAlt: "react props tests",
@@ -78,8 +78,8 @@ export default {
                     imageAlt: "tindog",
                 },
                 {
-                    dataName: "corp. template",
-                    dataCnt1: "business corp.",
+                    dataName: "site business",
+                    dataCnt1: "Fluid Jumbotron",
                     dataCnt2: "https://ipopop.github.io/Business-Site-in-Jekill-and-BootStrap-4/",
                     imageUrl: "img/corp.jpg",
                     imageAlt: "business company template",
