@@ -5,8 +5,7 @@
         <h3 class="text-lg font-semibold text-gray-800">{{ contentCard.dataName }}</h3>
         <p class="text-gray-600">{{ contentCard.dataCnt1 }}</p>
         <div class="mt-4">
-            <span class="text-gray-600">Voir le site : </span>
-            <a :href="contentCard.dataCnt2" class="text-sm font-semibold text-purple-500 hover:text-purple-400" target="_blank">{{ contentCard.imageAlt }}</a>
+            <a :href="contentCard.dataCnt2" class="shadow-lg btn btn-purple sm:text-base py-2" target="_blank"> DEMO </a>
         </div>
     </div>
 </div>

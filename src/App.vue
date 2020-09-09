@@ -10,10 +10,10 @@
                     <span class="text-purple-500">Profitez-en dès maintenant.</span>
                 </h2>
                 <p class="mt-2 text-gray-600 sm:mt-4 sm:text-xl">
-                    Vous voulez un site web moderne, design, rapide et accessible sur laptops et mobiles. Profitez de notre savoir faire. Nous sommes le lien entre vos idées et leur mise en forme.
+                    Vous rêvez d'un site web moderne, design, rapide et accessible sur laptops et mobiles. Profitez de notre savoir faire. Nous sommes le lien entre vos idées et leur mise en forme.
                 </p>
                 <div class="mt-4 sm:mt-6">
-                    <a href="#" class="shadow-lg btn btn-purple sm:text-base">Nous contacter</a>
+                    <a href="mailto:contact@maboite.space" class="shadow-lg btn btn-purple sm:text-base">Nous contacter</a>
                     <a href="#" class="ml-2 btn btn-gray sm:text-base">En savoir +</a>
                 </div>
             </div>
@@ -24,9 +24,9 @@
     </div>
     <div>
         <div class="max-w-md px-8 py-8 mx-auto sm:max-w-xl lg:max-w-6xl lg:px-12">
-            <h2 class="text-xl text-gray-900">Quelques réalisations</h2>
+            <h2 class="text-xl text-gray-900">Portfolio</h2>
             <p class="text-gray-600">
-                Voici une selection de différents types de projets que nous avons réalisé.
+                Une selection de différents types de projets réalisés.
             </p>
             <div class="flex flex-wrap -mx-4">
                 <div class="w-full px-4 mt-6 lg:w-1/2 xl:w-1/3" v-for="contentCard in dataCard" v-bind:key="contentCard">
@@ -49,39 +49,39 @@ export default {
     data() {
         return {
             dataCard: [{
-                    dataName: "yetistudio.fr",
-                    dataCnt1: "Optimisation photo pro",
+                    dataName: "service photo pro",
+                    dataCnt1: "yetistudio.fr",
                     dataCnt2: "https://www.yetistudio.fr/",
                     imageUrl: "img/yetistudio-fr.jpg",
                     imageAlt: "yetistudio.fr",
                 },
                 {
-                    dataName: "tindog",
-                    dataCnt1: "animal 'tinder'",
+                    dataName: "ecommerce",
+                    dataCnt1: "boutique web",
+                    dataCnt2: "https://hype-crwn-clothing-live.herokuapp.com/",
+                    imageUrl: "img/boutique.jpg",
+                    imageAlt: "boutique web",
+                },
+                {
+                    dataName: "animal 'tinder'",
+                    dataCnt1: "tindog",
                     dataCnt2: "https://ipopop.github.io/Bootstrap-tindog-project/",
                     imageUrl: "img/tindog.jpg",
                     imageAlt: "tindog",
                 },
                 {
-                    dataName: "Projet 3",
-                    dataCnt1: 130,
-                    dataCnt2: 115,
-                    imageUrl: "img/Projet-3.jpg",
-                    imageAlt: "Projet-3",
+                    dataName: "corporate template",
+                    dataCnt1: "your business company",
+                    dataCnt2: "https://ipopop.github.io/Business-Site-in-Jekill-and-BootStrap-4/",
+                    imageUrl: "img/corp.jpg",
+                    imageAlt: "your business company",
                 },
                 {
-                    dataName: "Projet 4",
-                    dataCnt1: 135,
-                    dataCnt2: 63,
-                    imageUrl: "img/Projet-4.jpg",
-                    imageAlt: "Projet-4",
-                },
-                {
-                    dataName: "Projet 5",
-                    dataCnt1: 85,
-                    dataCnt2: 47,
-                    imageUrl: "img/Projet-5.jpg",
-                    imageAlt: "Projet-5",
+                    dataName: "design components",
+                    dataCnt1: "react props tests",
+                    dataCnt2: "https://my-props-test.vercel.app/",
+                    imageUrl: "img/props.jpg",
+                    imageAlt: "react props tests",
                 },
                 {
                     dataName: "Projet 6",
