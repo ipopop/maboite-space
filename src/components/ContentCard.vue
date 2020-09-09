@@ -1,11 +1,11 @@
 <template>
 <div class="flex items-center overflow-hidden bg-white rounded-lg shadow-lg">
-    <img class="flex-shrink-0 w-32 h-32" :src="contentCard.imageUrl" :alt="contentCard.imageAlt">
+    <img class="object-auto object-center flex-shrink-0 w-36 h-36" :src="contentCard.imageUrl" :alt="contentCard.imageAlt">
     <div class="px-6 py-4">
         <h3 class="text-lg font-semibold text-gray-800">{{ contentCard.dataName }}</h3>
         <p class="text-gray-600">{{ contentCard.dataCnt1 }}</p>
         <div class="mt-4">
-            <a :href="contentCard.dataCnt2" class="shadow-lg btn sm:text-base py-2" target="_blank"> DEMO </a>
+            <a :href="contentCard.dataCnt2" class="shadow-lg btn btn-pink sm:text-base py-2" target="_blank"> DEMO </a>
         </div>
     </div>
 </div>
