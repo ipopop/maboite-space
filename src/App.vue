@@ -26,7 +26,7 @@
         <div class="max-w-md px-8 py-8 mx-auto sm:max-w-xl lg:max-w-6xl lg:px-12">
             <h2 class="text-xl text-gray-900">Portfolio</h2>
             <p class="text-gray-600">
-                Une selection de différents types de projets réalisés.
+                Une selection de différents types de sites web en cours de développement.
             </p>
             <div class="flex flex-wrap -mx-4">
                 <div class="w-full px-4 mt-6 lg:w-1/2 xl:w-1/3" v-for="contentCard in dataCard" v-bind:key="contentCard">
@@ -58,7 +58,7 @@ export default {
                 {
                     dataName: "ecommerce",
                     dataCnt1: "boutique web",
-                    dataCnt2: "https://hype-crwn-clothing-live.herokuapp.com/",
+                    dataCnt2: "https://bootik.onrender.com/",
                     imageUrl: "img/boutique.jpg",
                     imageAlt: "boutique web",
                 },
@@ -84,11 +84,11 @@ export default {
                     imageAlt: "react props tests",
                 },
                 {
-                    dataName: "Projet 6",
-                    dataCnt1: 115,
-                    dataCnt2: 86,
-                    imageUrl: "img/Projet-6.jpg",
-                    imageAlt: "Projet-6",
+                    dataName: "book collection",
+                    dataCnt1: "book collection",
+                    dataCnt2: "https://fullstack-web-dev-mybrary.herokuapp.com/",
+                    imageUrl: "img/mybrary.jpg",
+                    imageAlt: "book collection",
                 },
             ],
         };
