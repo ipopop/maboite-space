@@ -12,9 +12,10 @@
                 <p class="mt-2 md:mr-2 lg:mr-5 text-pkgray-400 sm:mt-4 sm:text-xl lg:text-xl xl:text-xl xl:mt-6 xl:mr-16">
                     Vous rêvez d'un site web moderne, design et accessible pour tous vos clients. Nous sommes le lien entre vos idées et leur mise en forme.
                 </p>
-                <div class="my-10 sm:mt-6 sm:text-base xl:mt-10 xl:text-sm">
-                    <a href="mailto:contact@maboite.space" class="shadow-lg btn btn-purple ">Nous contacter</a>
-                    <a href="#portfolio" class="ml-3 py-2 sm:ml-4 btn btn-pkgray">En savoir +</a>
+                <div class="text-center sm:text-left my-10 sm:mt-6 sm:text-base xl:mt-10 xl:text-sm">
+                    <a href="mailto:contact@maboite.space" class="mb-8 shadow-lg btn btn-purple w-full sm:w-auto">Nous contacter</a>
+                    <br class="sm:hidden inline" />
+                    <a href="#portfolio" class="py-2 w-full sm:w-auto sm:ml-4 btn btn-pkgray">En savoir +</a>
                 </div>
             </div>
         </div>
