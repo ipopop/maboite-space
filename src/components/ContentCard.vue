@@ -1,10 +1,10 @@
 <template>
-<div class="flex flex-wrap items-center overflow-hidden bg-white rounded-lg shadow-lg">
-    <img class="object-auto object-center sm:w-64 sm:h-64" :src="contentCard.imageUrl" :alt="contentCard.imageAlt">
-    <div class="text-center mx-auto sm:px-6 py-4">
+<div class="flex flex-wrap sm:flex-no-wrap mx-auto items-center overflow-hidden bg-white rounded-lg shadow-lg">
+    <img class="object-center w-auto sm:w-72 h-auto" :src="contentCard.imageUrl" :alt="contentCard.imageAlt">
+    <div class="object-center mx-auto my-auto sm:px-6 py-4 sm:w-48 sm:h-48">
         <h3 class="text-lg font-semibold text-gray-800">{{ contentCard.dataName }}</h3>
         <p class="text-gray-600">{{ contentCard.dataCnt1 }}</p>
-        <div class="mt-4">
+        <div class="mt-5">
             <a :href="contentCard.dataCnt2" class="shadow-lg btn btn-pink sm:text-base py-2" target="_blank"> DEMO </a>
         </div>
     </div>

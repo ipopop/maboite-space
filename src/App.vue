@@ -29,8 +29,8 @@
             <p class="text-xl text-gray-600">
                 Différents types de projets en cours de développement.
             </p>
-            <div class="flex flex-wrap">
-                <div class="mx-auto min-w-350 w-500 px-4 mt-10" v-for="contentCard in dataCard" v-bind:key="contentCard">
+            <div class="flex flex-wrap text-center">
+                <div class="object-center mx-auto max-w-350 min-h-300 sm:max-w-450 px-4 mt-10" v-for="contentCard in dataCard" v-bind:key="contentCard">
                     <ContentCard :contentCard="contentCard" />
                 </div>
             </div>
