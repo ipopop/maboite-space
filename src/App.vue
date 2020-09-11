@@ -97,6 +97,20 @@ export default {
                     imageAlt: "tindog",
                 },
                 {
+                    dataName: "food ninja",
+                    dataCnt1: "recettes",
+                    dataCnt2: "https://ipopop.github.io/tailwind-tutorial/",
+                    imageUrl: "img/food-ninja.jpg",
+                    imageAlt: "food ninja recettes",
+                },
+                {
+                    dataName: "collection",
+                    dataCnt1: "livres",
+                    dataCnt2: "https://fullstack-web-dev-mybrary.herokuapp.com/",
+                    imageUrl: "img/mybrary.jpg",
+                    imageAlt: "books & authors",
+                },
+                {
                     dataName: "site business",
                     dataCnt1: "demo template",
                     dataCnt2: "https://ipopop.github.io/Business-Site-in-Jekill-and-BootStrap-4/",
