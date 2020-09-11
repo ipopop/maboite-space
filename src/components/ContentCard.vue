@@ -1,7 +1,7 @@
 <template>
 <div class="flex flex-wrap sm:flex-no-wrap mx-auto items-center overflow-hidden bg-white rounded-lg shadow-lg">
     <img class="object-center w-auto sm:w-72 h-auto" :src="contentCard.imageUrl" :alt="contentCard.imageAlt">
-    <div class="object-center mx-auto my-auto sm:px-6 py-4 sm:w-48 sm:h-48">
+    <div class="object-center mx-auto my-auto sm:pt-10 sm:px-6 py-4 sm:w-48 sm:h-48">
         <h3 class="text-lg font-semibold text-gray-800">{{ contentCard.dataName }}</h3>
         <p class="text-gray-600">{{ contentCard.dataCnt1 }}</p>
         <div class="mt-5">
