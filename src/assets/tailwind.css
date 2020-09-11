@@ -46,7 +46,7 @@
     }
     
     .btn-pkgray {
-        @apply uppercase text-pkgray-600 bg-pkgray-300;
+        @apply uppercase text-pkgray-600 bg-pkgray-400;
     }
 
     .btn-pkgray:hover {
@@ -54,7 +54,7 @@
     }
     
     .btn-pkgray:active {
-        @apply bg-pkgray-400;
+        @apply bg-pkgray-500;
     }
 
     /* @screen sm {
