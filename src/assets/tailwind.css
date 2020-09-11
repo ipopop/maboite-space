@@ -65,4 +65,9 @@
 
     html{scroll-behavior:smooth}
 
+    body{
+        background: rgb(247,237,247);
+        background: linear-gradient(180deg, rgba(247,237,247,1) 50%, rgba(233,216,253,1) 100%);
+    }
+
 @tailwind utilities;
