@@ -12,12 +12,12 @@
                     </h2>
                     <p class="mt-2 md:mr-2 lg:mr-5 text-pkgray-400 sm:mt-4 sm:text-xl lg:text-lg lg:max-w-sm xl:text-xl xl:mt-6 xl:mr-16">Vous rêvez d'un site web moderne, design et accessible pour tous vos clients. Nous sommes le lien entre vos idées et leur mise en forme.</p>
                     <div class="text-center sm:text-left my-10 sm:mt-10 sm:text-base lg:my-6 xl:mt-10 xl:text-sm">
-                        <button class="btn btn-purple mb-8 sm:mb-0 shadow-lg w-full sm:w-auto">
-                            <a href="mailto:contact@maboite.space">Nous contacter</a>
+                        <button class="btn btn-purple mb-8 sm:mb-0 shadow-lg w-full sm:w-auto" onclick="location.href='mailto:contact@maboite.space'" type="button">
+                            Nous contacter
                         </button>
                         <br class="sm:hidden inline" />
-                        <button class="btn btn-pkgray py-2 border-2 w-full sm:w-auto sm:ml-5">
-                            <a href="#portfolio">En savoir +</a>
+                        <button class="btn btn-pkgray py-2 border-2 w-full sm:w-auto sm:ml-5" onclick="location.href='#portfolio'" type="button">
+                            En savoir +
                         </button>
                     </div>
                 </div>
@@ -49,8 +49,8 @@
                     <br />
                     <span class="text-purple-500">Profitez-en dès maintenant.</span>
                 </h2>
-                <button class="flex-1 mx-auto btn btn-purple mt-8 sm:mt-0 shadow-lg">
-                    <a href="mailto:contact@maboite.space">Nous contacter</a>
+                <button class="flex-1 mx-auto btn btn-purple mt-8 sm:mt-0 shadow-lg" onclick="location.href='mailto:contact@maboite.space'" type="button">
+                    Nous contacter
                 </button>
             </div>
         </div>
