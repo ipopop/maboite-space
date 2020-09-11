@@ -98,17 +98,17 @@ export default {
                 },
                 {
                     dataName: "site business",
-                    dataCnt1: "Fluid Jumbotron",
+                    dataCnt1: "demo template",
                     dataCnt2: "https://ipopop.github.io/Business-Site-in-Jekill-and-BootStrap-4/",
                     imageUrl: "img/corp.jpg",
                     imageAlt: "business company template",
                 },
                 {
-                    dataName: "collection",
-                    dataCnt1: "book & authors",
-                    dataCnt2: "https://fullstack-web-dev-mybrary.herokuapp.com/",
-                    imageUrl: "img/mybrary.jpg",
-                    imageAlt: "book collection",
+                    dataName: "remote work",
+                    dataCnt1: "alakaza.me",
+                    dataCnt2: "https://www.alakaza.me",
+                    imageUrl: "img/tailwind.jpg",
+                    imageAlt: "remote work",
                 },
             ],
         };
