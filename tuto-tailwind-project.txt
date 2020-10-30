@@ -3,6 +3,9 @@
 # serve (local) :
 pnpm run serve;
 
+# enable auto-login to github from iterm2 via ssh :
+cd ~/.ssh/ && ssh-add id_rsa_ms_github && ssh-add -l;
+
 # git add + commit + push :
 gaa && gcam "<my commit msg here>" && git push -u origin master;
 

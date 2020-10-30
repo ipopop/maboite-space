@@ -124,6 +124,20 @@ export default {
                     imageUrl: "img/tailwind.jpg",
                     imageAlt: "remote work",
                 },
+                {
+                    dataName: "travel blog",
+                    dataCnt1: "wonderful world",
+                    dataCnt2: "https://frontity.sqrl.vercel.app/",
+                    imageUrl: "img/wonderful-world-blog-512px.jpg",
+                    imageAlt: "remote work",
+                },
+                {
+                    dataName: "minimal game",
+                    dataCnt1: "rock paper scissors",
+                    dataCnt2: "https://rock-paper-scissors-gray.vercel.app/",
+                    imageUrl: "img/rock-paper-scissors-512px.jpg",
+                    imageAlt: "Rock Paper Scissors",
+                },
             ],
         };
     },
