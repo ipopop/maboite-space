@@ -138,6 +138,20 @@ export default {
                     imageUrl: "img/rock-paper-scissors-512px.jpg",
                     imageAlt: "Rock Paper Scissors",
                 },
+                {
+                    dataName: "Friend List",
+                    dataCnt1: "your contact list",
+                    dataCnt2: "https://ruby-on-rails-friends-list.herokuapp.com/home/about",
+                    imageUrl: "img/friend-list.jpg",
+                    imageAlt: "your contact list",
+                },
+                {
+                    dataName: "Cosmo Junkie",
+                    dataCnt1: "dev portfolio",
+                    dataCnt2: "https://ipopop.github.io/responsive-css-grid-build/",
+                    imageUrl: "img/cosmos-junk.jpg",
+                    imageAlt: "dev portfolio",
+                },
             ],
         };
     },
