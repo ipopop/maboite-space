@@ -1,5 +1,18 @@
 <template>
 <div id="app">
+        <div class="anim-background">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
     <section id="header" class="bg-dark">
         <container class="mx-auto xxl:max-w-8xl flex">
             <div class="flex-1 m-auto max-w-md px-8 py-4 sm:py-8 sm:max-w-xl lg:py-0 lg:px-12">
@@ -27,6 +40,7 @@
             </div>
         </container>
     </section>
+
     <section id="portfolio">
         <div class="text-center max-w-md my-10 px-8 py-8 mx-auto sm:max-w-2xl lg:max-w-6xl lg:px-12">
             <h2 class="text-4xl text-purple-500">Portfolio</h2>
@@ -168,3 +182,4 @@ export default {
 </script>
 
 <style src="./assets/tailwind.css"></style>
+<style src="./assets/anim-bg.css"></style>
