@@ -17,7 +17,7 @@
                     <p>Gh-pages, Heroku, Vercel, Onrender</p>
                 </div>
             </div>
-            <div class="card-back">
+            <div class="card-back" onclick="void(0)">
                 <div class="card-top">
                     <div class="card-image"></div>
                 </div>
