@@ -29,7 +29,8 @@ html, body {
 }
 
 .card:hover .card-inner,
-.card:active .card-inner
+.card:active .card-inner,
+.card:focus .card-inner
 {
   transform: rotateY(180deg);
 }
@@ -124,7 +125,8 @@ html, body {
 }
 
 .card-back .card-icons a:hover,
-.card-back .card-icons a:active
+.card-back .card-icons a:active,
+.card-back .card-icons a:focus
 {
   cursor:pointer;
   opacity:0.7;
@@ -135,7 +137,8 @@ html, body {
 }
 
 .card:hover .card-front,
-.card:active .card-front
+.card:active .card-front,
+.card:focus .card-front
 {
   opacity:0;
 }
