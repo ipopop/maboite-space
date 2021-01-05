@@ -12,7 +12,7 @@
                     </h2>
                     <p class="mt-2 md:mr-2 lg:mr-5 text-pkgray-400 sm:mt-4 sm:text-xl lg:text-lg lg:max-w-sm xl:text-xl xl:mt-6 xl:mr-16">Vous rêvez d'un site web moderne, design et accessible pour tous vos clients. Nous sommes le lien entre vos idées et leur mise en forme.</p>
                     <div class="text-center sm:text-left my-10 sm:mt-10 sm:text-base lg:my-6 xl:mt-10 xl:text-sm">
-                        <button class="btn btn-purple mb-8 sm:mb-0 shadow-lg w-full sm:w-auto" onclick="location.href='mailto:contact@maboite.space'" type="button">
+                        <button class="btn btn-purple mb-8 sm:mb-0 shadow-lg w-full sm:w-auto" onclick="location.href='#footer'" type="button">
                             Nous contacter
                         </button>
                         <br class="sm:hidden inline" />
@@ -41,30 +41,39 @@
             </div>
         </div>
     </section>
+
     <section id="footer" class="flex flex-wrap bg-dark mt-24 body-font">
-        <div class="mx-auto px-8 py-24">
-            <div class="flex flex-col sm:flex-row sm:items-center items-start mx-auto">
-                <h2 class="flex-1 sm:flex-none text-center text-pkgray-300 sm:pr-16 text-xl font-bold leading-tight sm:text-2xl lg:text-xl">
-                    Votre Site Web sur mesure.
-                    <br />
-                    <span class="text-purple-500">Profitez-en dès maintenant.</span>
-                </h2>
-                <button class="flex-1 mx-auto btn btn-purple mt-8 sm:mt-0 shadow-lg" onclick="location.href='mailto:contact@maboite.space'" type="button">
-                    Nous contacter
-                </button>
+        <container class="flex flex-wrap m-auto py-4 sm:py-8 lg:py-0 lg:px-12 mx-auto">
+            <div class="mx-auto py-8">
+                <FlipCard :flipCard="flipCard" />
             </div>
-        </div>
+            <div class="flex flex-wrap m-auto max-w-md px-8 py-4 sm:py-8 sm:max-w-xl lg:py-0 lg:px-12">
+                <div class="mx-auto max-w-350 flex flex-col items-center">
+                    <h2 class="text-center text-pkgray-300 text-xl font-bold leading-tight sm:text-2xl lg:text-xl">
+                        Votre Site Web sur mesure.
+                        <br />
+                        <span class="text-purple-500">Profitez-en dès maintenant.</span>
+                    </h2>
+                    <button class="flex-1 mx-auto btn btn-purple my-8 shadow-lg" onclick="location.href='mailto:contact@maboite.space'" type="button">
+                        Nous contacter
+                    </button>
+                </div>
+            </div>
+        </container>
     </section>
+
 </div>
 </template>
 
 <script>
 import ContentCard from "./components/ContentCard";
+import FlipCard from "./components/FlipCard";
 
 export default {
     name: "app",
     components: {
         ContentCard,
+        FlipCard,
     },
     data() {
         return {
