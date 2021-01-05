@@ -28,7 +28,9 @@ html, body {
   transform-style: preserve-3d;
 }
 
-.card:hover .card-inner {
+.card:hover .card-inner,
+.card:active .card-inner
+{
   transform: rotateY(180deg);
 }
 
@@ -121,7 +123,9 @@ html, body {
   transition:opacity .2s;
 }
 
-.card-back .card-icons a:hover {
+.card-back .card-icons a:hover,
+.card-back .card-icons a:active
+{
   cursor:pointer;
   opacity:0.7;
 }
@@ -130,7 +134,9 @@ html, body {
   transition: opacity .6s;
 }
 
-.card:hover .card-front {
+.card:hover .card-front,
+.card:active .card-front
+{
   opacity:0;
 }
 
