@@ -3,24 +3,25 @@
         <div class="card-inner">
             <div class="card-front">
                 <div class="card-content">
-                    <h2>Portfolio</h2>
+                    <p><strong>Portfolio / Skills</strong></p>
                     <p>------</p>
                     <p>HTML, CSS, JS</p>
-                    <p>Bootstrap, Tailwind</p>
+                    <p>Sass, Bootstrap, Tailwind</p>
                     <p>Ajax, Typescript</p>
-                    <p>React, Rails</p>
-                    <p>Vue, Svelte</p>
+                    <p>React, Vue, Svelte</p>
+                    <p>Ruby, RubyOnRails</p>
                     <p>Node, Python</p>
-                    <p>Git, Gitlab</p>
-                    <p>Bash, Zsh</p>
-                    <p>MySQL, Postgres</p>
+                    <p>Git, Github, Gitlab</p>
+                    <p>Bash, Zsh, Oh-My-Zsh</p>
+                    <p>MySQL, Postgres, Mongodb</p>
+                    <p>Gh-pages, Heroku, Vercel, Onrender</p>
                 </div>
             </div>
             <div class="card-back">
                 <div class="card-top">
                     <div class="card-image"></div>
                 </div>
-            <p>Suivez-nous sur :</p>
+            <p>Linkedin / Github / Email</p>
             <div class="card-icons">
                 <a class="ico1" href="https://www.linkedin.com/in/e-baroni" target="_blank">
                     <i class="fab fa-linkedin"></i>
