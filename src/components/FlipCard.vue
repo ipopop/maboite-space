@@ -1,7 +1,7 @@
 <template>
     <div class="card">
         <div class="card-inner">
-            <div class="card-front">
+            <div class="card-front" onclick="void(0)">
                 <div class="card-content">
                     <p><strong>Portfolio / Skills</strong></p>
                     <p>------</p>
