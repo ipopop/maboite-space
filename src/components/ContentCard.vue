@@ -5,7 +5,7 @@
         <h3 class="text-lg font-semibold text-gray-800">{{ contentCard.dataName }}</h3>
         <p class="text-gray-600">{{ contentCard.dataCnt1 }}</p>
         <div class="mt-5 mb-4 sm:mb-0">
-            <a :href="contentCard.dataCnt2" class="shadow-lg btn btn-pink sm:text-base py-2" target="_blank"> DEMO </a>
+            <a :href="contentCard.dataCnt2" class="shadow-lg btn btn-pink sm:text-base py-2" rel="noreferrer" target="_blank"> DEMO </a>
         </div>
     </div>
 </div>

@@ -23,13 +23,13 @@
                 </div>
             <p>Linkedin / Github / Email</p>
             <div class="card-icons">
-                <a class="ico1" href="https://www.linkedin.com/in/e-baroni" target="_blank">
+                <a class="ico1" href="https://www.linkedin.com/in/e-baroni" rel="noreferrer" target="_blank">
                     <i class="fab fa-linkedin"></i>
                 </a>
-                <a class="ico2" href="https://github.com/ipopop" target="_blank">
+                <a class="ico2" href="https://github.com/ipopop" rel="noreferrer" target="_blank">
                     <i class="fab fa-github"></i>
                 </a>
-                <a class="ico3" href="mailto:contact@maboite.space" target="_blank">
+                <a class="ico3" href="mailto:contact@maboite.space" rel="noreferrer" target="_blank">
                     <i class="fas fa-at"></i>
                 </a>
             </div>

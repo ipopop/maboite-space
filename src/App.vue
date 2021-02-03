@@ -181,5 +181,5 @@ export default {
 };
 </script>
 
-<style src="./assets/tailwind.css"></style>
 <style src="./assets/anim-bg.css"></style>
+<style src="./assets/tailwind.css"></style>
