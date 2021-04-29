@@ -23,7 +23,7 @@
                 </div>
             <p>Linkedin / Github / Email</p>
             <div class="card-icons">
-                <a class="ico1" href="https://www.linkedin.com/in/e-baroni" rel="noreferrer" target="_blank">
+                <a class="ico1" href="https://www.linkedin.com/in/eb-web-dev" rel="noreferrer" target="_blank">
                     <i class="fab fa-linkedin"></i>
                 </a>
                 <a class="ico2" href="https://github.com/ipopop" rel="noreferrer" target="_blank">

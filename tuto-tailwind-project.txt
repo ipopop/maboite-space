@@ -7,7 +7,7 @@ pnpm run serve;
 cd ~/.ssh/ && ssh-add id_rsa_ms_github && ssh-add -l && cd -;
 
 # git add + commit + push :
-gaa && gcam "<my commit msg here>" && git push -u origin master;
+gaa && gcam "<my commit msg here>" && git push -u origin main;
 
 # deploy on github pages :
 ./deploy.sh;
