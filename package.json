@@ -13,15 +13,16 @@
   "description": "",
   "dependencies": {
     "autoprefixer": "^9.8.6",
-    "core-js": "^3.6.5",
+    "core-js": "^3.11.1",
     "postcss-cli": "^7.1.2",
-    "tailwindcss": "^1.8.2",
+    "ssri": "^8.0.1",
+    "tailwindcss": "^1.9.6",
     "vue": "^2.6.12"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.12.1",
     "@vue/cli-plugin-eslint": "^3.12.1",
-    "@vue/cli-service": "^4.5.4",
+    "@vue/cli-service": "^4.5.12",
     "babel-eslint": "^10.1.0",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.2.3",
