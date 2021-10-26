@@ -91,7 +91,8 @@ export default {
     },
     data() {
         return {
-            dataCard: [{
+            dataCard: [
+                {
                     dataName: "service photo",
                     dataCnt1: "yetistudio.fr",
                     dataCnt2: "https://www.yetistudio.fr/",
@@ -104,6 +105,20 @@ export default {
                     dataCnt2: "https://my-props-test.vercel.app/",
                     imageUrl: "img/props.jpg",
                     imageAlt: "react props tests",
+                },
+                {
+                    dataName: "Motion Pizza",
+                    dataCnt1: "pizza command",
+                    dataCnt2: "https://framer-motion-pizzajoint.vercel.app/",
+                    imageUrl: "img/motion-pizza.jpg",
+                    imageAlt: "pizza command",
+                },
+                {
+                    dataName: "Restau Menu",
+                    dataCnt1: "menu template",
+                    dataCnt2: "https://ipopop.github.io/eb-dev_OC_p3/index.html",
+                    imageUrl: "img/resto.jpg",
+                    imageAlt: "menu template",
                 },
                 {
                     dataName: "ecommerce",
