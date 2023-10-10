@@ -144,7 +144,7 @@ export default {
                 {
                     dataName: "collection",
                     dataCnt1: "livres",
-                    dataCnt2: "https://fullstack-web-dev-mybrary.herokuapp.com/",
+                    dataCnt2: "https://ipopop.github.io/tailwind-alpine-coming-soon/",
                     imageUrl: "img/mybrary.jpg",
                     imageAlt: "books & authors",
                 },
@@ -179,7 +179,7 @@ export default {
                 {
                     dataName: "Friend List",
                     dataCnt1: "your contact list",
-                    dataCnt2: "https://ruby-on-rails-friends-list.herokuapp.com/home/about",
+                    dataCnt2: "https://ipopop.github.io/tailwind-alpine-coming-soon/",
                     imageUrl: "img/friend-list.jpg",
                     imageAlt: "your contact list",
                 },

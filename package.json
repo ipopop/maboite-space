@@ -5,7 +5,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "watch": "postcss css/tailwind.css -o docs/build/tailwind.css --watch"
   },
   "keywords": [],
   "author": "",
